@@ -1,0 +1,185 @@
+.top-container {
+    background-color: #e4f9f5;
+    position:relative;
+
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    height: 150px;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    color: #40514e
+}
+
+h1{
+    margin: 0px;
+    font-family: "Sacramento", cursive;
+    font-size: 90px;
+    margin: 90px auto 0 auto;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    margin-top: 2rem;
+}
+    
+h3{
+    font-family: "Montserrat", sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+
+.pro{
+    text-decoration:underline
+}
+
+.bottom-cloud{
+    position: absolute;
+    right: 730px;
+}
+
+.top-cloud{
+    position: relative;
+    top: 25px;
+    left: 225px;
+}
+
+.anm_comp{
+    width:250px;
+}
+
+.acc{
+    width:250px;
+    transition: ease-in-out 0.67s;
+}
+
+.acc:hover{
+    width:300px;
+}
+
+.para1{
+    font-size: 2.5rem;
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.anm_comp{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    transition: ease-in-out 0.67s,ease-in-out 0.67s;
+}
+
+.anm_comp:hover{
+    width:30%;
+    
+}
+
+.compu{
+    width: 25%;
+    float: right;
+    margin-left: 90px;
+    margin-bottom:100px;
+    transition: ease-in 0.67s,ease-out 0.67s;
+    text-align: j;
+}
+
+.compu:hover{
+    transform: scale(1.3);
+}
+
+.dots{
+    border:dotted #EAF6F6 6px;
+    border-bottom: none;
+    width:4%;
+}
+
+.btn{
+    background-color: #66BFBF;
+    border-radius: 10%;
+    border:solid white;
+    margin-top:50px;
+    margin-bottom: 70px;
+    padding: 10px;
+    color:white;
+    font-weight: 530;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.5s ease, 0.5s ease;
+}
+
+.btn:hover{
+    background-color: #11999E;
+    
+    transform: scale(1.1);
+}
+
+.footer-link{
+    color:#11999E;
+    text-decoration: none;
+    position: relative;
+    top:50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    transition: 0.5s ease-in-out, 0.5s ease-in-out;
+}
+
+
+
+.bet_font{
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer-link:hover{
+    transform: scale(1.1);
+    color: #46f9ff;
+    text-decoration: solid;
+}
+
+.lastpara{
+    color:#EAF6F6;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 60px;
+    transition:1.5s ease-in, 1.5s ease-out;
+    
+}
+
+@keyframes maulik1{
+    0%{
+        color:#EAF6F6 ;
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color:#EAF6F6;
+    }
+}
+
+.lastpara{
+    animation-name: maulik1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
